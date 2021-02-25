@@ -1,0 +1,109 @@
+<html>
+    
+    <head>
+        <meta http-equiv="refresh" content="9">
+        <link rel="icon" 
+              href="icons8-traffic-light-48.png">
+        <style>
+    div{
+        width: 200px;
+        height: 200px;
+        border-radius:50%;
+        display:flex;
+        
+    }
+    #Circle1{
+animation-name:C1;
+background-color:gray;
+animation-delay: 6s;
+animation-duration:2s;
+    }
+
+#Circle2{
+    animation-name:C2;
+    background-color:gray;
+    animation-delay:2s;
+    animation-duration:2s;
+    animation-iteration-count:2;
+    
+}
+           #Circle3{
+               animation-name:C3;
+               background-color:gray;
+               animation-duration:2s;
+           
+           }
+           #Traffic{
+               position:absolute;
+               display:block;
+               left:85%;
+               top:5%;
+               background:black;
+               width:300px;
+               height:700px;
+               border-radius:25px;
+              margin-left: -60px;
+              margin-top:-16px;
+              padding-top: 25px;
+
+           }
+           body{
+               background-image: url(https://3.bp.blogspot.com/-cWXx1Rg3vtc/WNdzXrDUh2I/AAAAAAAAADA/G9nNTGIqeyMNeXR1e6WO0jAzt6TtWjiYgCLcB/s1600/Animation-gif-2.gif);
+               background-repeat: no-repeat;
+               background-size: cover;
+           }
+           @keyframes C1{
+               from{
+                   background-color:gray;               
+                   }
+                   to{
+                       background-color:red;
+                   }
+           }
+           @keyframes C2{
+               from{
+                   background-color:gray;               
+                   }
+                   to{
+                       background-color:yellow;
+                   }
+           }
+           @keyframes C3{
+               from{
+                   background-color:gray;               
+                   }
+                   to{
+                       background-color:green;
+                   }
+           }
+
+                  
+
+</style>
+<title>
+    Traffic Light
+</title>
+
+    </head>
+    <body>
+        <center>
+            <div id="Traffic">
+
+            
+<div class="Circle" id="Circle1" >
+
+</div>
+<br>
+<br>
+<div class="Circle" id="Circle2" > 
+
+</div>
+<br>
+<br>
+<div class="Circle" id="Circle3" >
+
+</div>
+</div>
+</center>
+    </body>
+</html>
